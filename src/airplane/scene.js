@@ -7,7 +7,7 @@ export class AirplaneScene extends Scene {
     }
 
     async load() {
-        this.airplaneResource = await this.useImage('airplane', 'res/airplane/airplane.png');
+        this.airplaneResource = await this.useImage('airplane', './airplane/res/airplane.png');
     }
 
     init() {
